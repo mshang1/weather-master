@@ -1,0 +1,10 @@
+<div>
+
+  <h3>
+    {{cityDetails.cityName}}
+    {{cityDetails.stateCode}}
+    {{cityDetails.countryCode}}
+  </h3>
+  <button (click)="getWeather()"> Get Weather </button>
+</div>
+<app-weather-forecast [weatherForecasts]="weatherForecasts"></app-weather-forecast>
